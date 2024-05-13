@@ -1,6 +1,6 @@
-import { Header } from './components/Header'
+import Header from './components/Header'
 
-export const App = () => {
+export default function App() {
   return (
     <>
       <Header />

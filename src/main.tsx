@@ -4,7 +4,7 @@ import { RouterProvider } from 'react-router-dom'
 import theme from './theme'
 import router from './router'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById('app')!).render(
   <ChakraProvider theme={theme}>
     <RouterProvider router={router} />
   </ChakraProvider>

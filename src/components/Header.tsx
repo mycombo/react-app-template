@@ -1,7 +1,7 @@
 import { Flex, Box } from '@chakra-ui/react'
-import { ModeIcon } from './ModeIcon'
+import ModeIcon from './ModeIcon'
 
-export const Header = () => {
+export default function Header() {
   return (
     <Flex p={4}>
       <Box flex={1} />
