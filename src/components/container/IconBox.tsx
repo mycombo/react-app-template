@@ -17,8 +17,6 @@ export default function IconBox({
       boxSize={10}
       p={2}
       rounded={'2xl'}
-      transition={'all 150ms ease-in'}
-      onClick={onClick}
       bg={bg}
       _hover={{
         bg: bgHover,
@@ -26,6 +24,8 @@ export default function IconBox({
       _active={{
         bg: bgActive,
       }}
+      transition={'all 300ms ease'}
+      onClick={onClick}
     ></Icon>
   )
 }
