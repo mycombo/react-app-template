@@ -1,7 +1,7 @@
 import { useColorMode, useColorModeValue } from '@chakra-ui/react'
-import { PhSun } from './Icons/SunIcon'
-import { PhMoon } from './Icons/MoonIcon'
-import IconBox from './container/IconBox'
+import { PhSun } from '@/components/Icons/SunIcon'
+import { PhMoon } from '@/components/Icons/MoonIcon'
+import IconBox from '@/components/container/IconBox'
 
 export default function ModeButton() {
   const { toggleColorMode } = useColorMode()
