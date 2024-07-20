@@ -8,9 +8,7 @@ export default function Header() {
   return (
     <Flex p={4} gap={4} align={'center'}>
       <Box flex={1} />
-      <Text fontSize={'xl'} color={'#224b8f'}>
-        {name}
-      </Text>
+      <Text fontSize={'xl'}>{name}</Text>
       <ModeButton />
     </Flex>
   )
